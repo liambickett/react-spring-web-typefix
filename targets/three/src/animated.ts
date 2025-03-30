@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { CSSProperties, ForwardRefExoticComponent, FC } from 'react'
+import type { CSSProperties, ForwardRefExoticComponent, FC, JSX } from 'react'
 import {
   AssignableKeys,
   ComponentPropsWithRef,

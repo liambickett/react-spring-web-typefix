@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import { ReactNode } from 'react'
+import type { ReactNode, JSX } from 'react'
 import { button, inner } from './GradientButton.css'
 
 interface GradientButtonProps {

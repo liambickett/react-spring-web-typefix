@@ -115,7 +115,7 @@ interface TestContext extends SpringContext {
 }
 
 function createUpdater(Component: React.ComponentType<{ args: [any, any?] }>) {
-  let prevElem: JSX.Element | undefined
+  let prevElem: React.JSX.Element | undefined
   let result: RenderResult | undefined
 
   const context: TestContext = {

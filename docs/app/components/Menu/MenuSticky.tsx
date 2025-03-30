@@ -9,6 +9,8 @@ import { getHeaderHeights } from '../Header/Header'
 import clsx from 'clsx'
 import { stickyMenu, stickyMenuStuck } from './MenuSticky.css'
 
+import type { JSX } from 'react'
+
 interface MenuStickyProps {
   tag?: keyof JSX.IntrinsicElements
   className?: string

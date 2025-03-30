@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import { ReactNode } from 'react'
+import type { ReactNode, JSX } from 'react'
 import * as FontSizes from '../../styles/fontStyles.css'
 import { descriptiveList, list } from './List.css'
 

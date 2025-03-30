@@ -1,4 +1,4 @@
-import { CSSProperties, ReactNode } from 'react'
+import type { CSSProperties, ReactNode, JSX } from 'react'
 
 import { Link } from 'phosphor-react'
 
