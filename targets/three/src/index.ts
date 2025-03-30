@@ -19,7 +19,10 @@ addEffect(() => {
 })
 
 const host = createHost(primitives, {
-  applyAnimatedValues: applyProps,
+  applyAnimatedValues: (instance, props) => {
+    applyProps(instance, props)
+    return
+  },
 })
 
 export const animated = host.animated as WithAnimated
